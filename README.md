@@ -126,7 +126,7 @@ http://www.cl.ecei.tohoku.ac.jp/nlp100/
 ---------  
 1. 特定ファイルをmerge  
 > git checkout [ブランチ名] -- [ファイル名]  
-  * 例: 自分のブランチにmasterのREADME.mdファイルを持ってくる
+  * 例: 自分のブランチにmasterのREADME.mdファイルを持ってくる  
   git checkout master -- README.md  
  
 2. ブランチごとマージ（下位ディレクトリをmergeしたい時）  
