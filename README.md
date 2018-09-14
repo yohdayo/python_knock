@@ -1,5 +1,4 @@
 # Python-Knock(NLP)  
-=========================  
 http://www.cl.ecei.tohoku.ac.jp/nlp100/  
 
 ### 初期設定  
