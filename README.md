@@ -122,11 +122,11 @@ http://www.cl.ecei.tohoku.ac.jp/nlp100/
 > git push --set-upstream origin [自分のアカウント名]  
 （１回のみ，次からは普通にgit push）  
 
-## 自分のプログラムをmasterにmergeする方法  
+## Merge方法  
 ---------  
-1. 特定ファイルをマージ  
+1. 特定ファイルをmerge  
 > git checkout [ブランチ名] -- [ファイル名]  
-  * 例  
+  * 例: 自分のブランチにmasterのREADME.mdファイルを持ってくる
   git checkout master -- README.md  
  
 2. ブランチごとマージ（下位ディレクトリをmergeしたい時）  
