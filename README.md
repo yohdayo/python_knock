@@ -127,8 +127,7 @@ http://www.cl.ecei.tohoku.ac.jp/nlp100/
 1. 特定ファイルをマージ  
 > git checkout [ブランチ名] -- [ファイル名]  
   * 例  
-> git checkout master -- README.md  
-> git checkout jun -- 005_ngram_example.py  
+  git checkout master -- README.md  
  
 2. ブランチごとマージ（下位ディレクトリをmergeしたい時）  
 > git merge --squash [ブランチ名] --no-commit  
