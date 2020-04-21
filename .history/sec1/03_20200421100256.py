@@ -1,10 +1,9 @@
 def sprit(string):
     words = string.split(' ')
-
+    print(words)
     result = []
     for word in words:
         result.append(len(word) - word.count(',') - word.count('.'))
-        #, . を除いた文字数をresultに格納
 
     print(result)
 
