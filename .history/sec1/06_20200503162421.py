@@ -1,5 +1,4 @@
 def make_bigram(str):
-    #bi-gramを作る
     ngram = (str[i:2+i] for i in range(int(len(str))-3))
     return ngram
 
@@ -25,11 +24,7 @@ if __name__ == '__main__':
 
     bi_str1 = list(make_bigram(str1))
     bi_str2 = list(make_bigram(str2))
-
     union_bi_str1 = set(bi_str1) #bi_str1の和集合
     union_bi_str2 = set(bi_str2) #bistr2の和集合
-
     get_union(union_bi_str1, union_bi_str2)
-    get_intersection(union_bi_str1, union_bi_str2)
-    get_difference(union_bi_str1, union_bi_str2)
     
