@@ -9,7 +9,7 @@ def typoglycemia(sentence):
             result.append(word)
         else:
             s = word[0]
-            s += ''.join(random.sample(word, len(word[1:-1])))
+            s += random.sample(word, (len(word[1:-1])))
             s += word[-1]
             result.append(s)
 

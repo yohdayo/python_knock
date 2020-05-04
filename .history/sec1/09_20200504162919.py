@@ -1,16 +1,15 @@
 import random
 
 def typoglycemia(sentence):
-    words = sentence.split(" ") #半角空白で単語に分ける
+    words = sentence.split(" ")
+    print(words)
 
     result = []
     for word in words:
         if len(word) < 4:
             result.append(word)
         else:
-            s = word[0]
-            s += ''.join(random.sample(word, len(word[1:-1])))
-            s += word[-1]
+            s = ''.join(random.sample(word, (1,len(word)-1)))
             result.append(s)
 
     print(result)

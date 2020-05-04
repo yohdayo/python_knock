@@ -1,20 +1,22 @@
 import random
 
 def typoglycemia(sentence):
-    words = sentence.split(" ") #半角空白で単語に分ける
+    words = sentence.split(" ")
+    print(words)
 
-    result = []
+    random = []
     for word in words:
         if len(word) < 4:
-            result.append(word)
+            random.append(word)
         else:
-            s = word[0]
-            s += ''.join(random.sample(word, len(word[1:-1])))
-            s += word[-1]
-            result.append(s)
-
-    print(result)
+            s = random.shuffle(word[1:(len(word)-1)])
+    print(random)
             
+            
+
+    
+
+
 if __name__ == '__main__':
     sentence = "I couldn't believe that I could actually understand what I was reading : the phenomenal power of the human mind ."
     typoglycemia(sentence)
