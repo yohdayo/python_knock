@@ -16,7 +16,7 @@ def cipher(input_str):
     
     return result
     """
-    
+
 if __name__ == '__main__':
     input_str = input('Please input: ')
     #print(type(input_str))
